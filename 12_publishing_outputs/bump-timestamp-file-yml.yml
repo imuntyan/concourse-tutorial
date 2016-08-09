@@ -3,7 +3,8 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: imuntyan/test01:v1}
+  source: {repository: imuntyan/test01}
+  tag: v1
 
 inputs:
   - name: resource-tutorial
