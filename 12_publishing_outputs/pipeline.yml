@@ -18,6 +18,6 @@ jobs:
   - get: resource-tutorial
   - get: resource-gist
   - task: bump-timestamp-file
-    file: resource-tutorial/12_publishing_outputs/bump-timestamp-file.yml
+    file: resource-tutorial/12_publishing_outputs/bump-timestamp-file-yml.yml
   - put: resource-gist
     params: {repository: updated-gist}
