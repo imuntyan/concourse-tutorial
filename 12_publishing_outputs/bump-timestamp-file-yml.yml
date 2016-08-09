@@ -1,16 +1,16 @@
 ---
 platform: linux
 
-#image_resource:
-#  type: docker-image
-#  source: {repository: concourse/concourse-ci}
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
 
-#inputs:
-#  - name: resource-tutorial
-#  - name: resource-gist
+inputs:
+  - name: resource-tutorial
+  - name: resource-gist
 
-#outputs:
-#  - name: updated-gist
+outputs:
+  - name: updated-gist
 
 run:
   path: echo
