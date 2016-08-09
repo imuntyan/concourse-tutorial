@@ -3,7 +3,7 @@
 set -e # fail fast
 set -x # print commands
 
-apt-get install git
+sudo yum install git
 
 git clone resource-gist updated-gist
 
