@@ -5,9 +5,9 @@ image_resource:
   type: docker-image
   source: {repository: concourse/concourse-ci}
 
-inputs:
-  - name: resource-tutorial
-  - name: resource-gist
+#inputs:
+#  - name: resource-tutorial
+#  - name: resource-gist
 
 outputs:
   - name: updated-gist
