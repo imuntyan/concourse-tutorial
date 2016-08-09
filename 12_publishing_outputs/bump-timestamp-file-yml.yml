@@ -12,5 +12,7 @@ inputs:
 outputs:
   - name: updated-gist
 
-#run:
+run:
+  path: echo
+  args: [blah]
 #  path: resource-tutorial/12_publishing_outputs/bump-timestamp-file-sh.sh
