@@ -3,8 +3,6 @@
 set -e # fail fast
 set -x # print commands
 
-sudo yum install git
-
 git clone resource-gist updated-gist
 
 cd updated-gist
