@@ -9,8 +9,8 @@ image_resource:
 #  - name: resource-tutorial
 #  - name: resource-gist
 
-outputs:
-  - name: updated-gist
+#outputs:
+#  - name: updated-gist
 
 run:
   path: echo
