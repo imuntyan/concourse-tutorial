@@ -3,7 +3,7 @@
 set -e # fail fast
 set -x # print commands
 
-apt-get install git
+apt-get --assume-yes install git
 
 git clone resource-gist updated-gist
 
